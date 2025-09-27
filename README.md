@@ -9,9 +9,15 @@ A curated collection of high-value WordPress endpoints, files, and directories f
 
 Avoids noisy, unnecessary entries to give pentesters exactly what they need.
 
-## Quick start / Usage examples
+## Usage examples
 
-With `ffuf`
+With `Dirsearch` (recommended)
+```
+dirsearch -u https://example.com -w wp-karrab.txt
+```
+<img width="1203" height="649" alt="image" src="https://github.com/user-attachments/assets/65e963e1-0978-458d-98df-5b5df700ad32" />
+
+With `ffuf` 
 
 ```
 ffuf -u https://example.com/FUZZ -w wp-karrab.txt
@@ -20,11 +26,6 @@ ffuf -u https://example.com/FUZZ -w wp-karrab.txt
 With `Gobuster`
 ```
 gobuster dir -u https://example.com -w wp-karrab.txt
-```
-
-With `Dirsearch`
-```
-dirsearch -u https://example.com -w wp-karrab.txt
 ```
 
 
