@@ -154,6 +154,7 @@ wp-atom.php
 wp-backup.zip
 wp-backup/
 wp-backups/
+wp-config.bak
 wp-config.php
 wp-config.php.backup
 wp-config.php.bak
@@ -167,6 +168,11 @@ wp-config.php.original
 wp-config.php.sample
 wp-config.php.save
 wp-config.php.txt
+wp-config.php_old
+wp-config.php_orig
+wp-config.php~
+wp-config.txt
+wp-config.zip
 wp-content/
 wp-content/backup-db.sql
 wp-content/backup-db/
