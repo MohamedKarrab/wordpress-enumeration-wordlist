@@ -1,4 +1,4 @@
-# wordpress-recon-wordlist
+# wordpress-enumeration-wordlist
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
